@@ -1,0 +1,6 @@
+﻿DocInfo/DescLong=상세 설명을 입력합니다.
+DocInfo/DescShort=아무
+DocInfo/Name=스타크래프트 II 지도
+MapInfo/Player00/Name=중립
+MapInfo/Player01/Name=플레이어 1
+MapInfo/Player02/Name=적대
