@@ -2,6 +2,7 @@
 <TriggerData>
     <Root>
         <Item Type="Trigger" Id="31E35BA0"/>
+        <Item Type="Trigger" Id="5FAD92E7"/>
     </Root>
     <Element Type="Trigger" Id="31E35BA0">
         <Event Type="FunctionCall" Id="9932FEE8"/>
@@ -24,5 +25,61 @@
     </Element>
     <Element Type="FunctionCall" Id="017A3BDB">
         <FunctionDef Type="FunctionDef" Library="Ntve" Id="00000148"/>
+    </Element>
+    <Element Type="Trigger" Id="5FAD92E7">
+        <Event Type="FunctionCall" Id="3D391C6B"/>
+        <Action Type="FunctionCall" Id="8483AE4E"/>
+        <Action Type="FunctionCall" Id="D640F19C"/>
+    </Element>
+    <Element Type="FunctionCall" Id="3D391C6B">
+        <FunctionDef Type="FunctionDef" Library="Ntve" Id="00000120"/>
+    </Element>
+    <Element Type="FunctionCall" Id="8483AE4E">
+        <FunctionDef Type="FunctionDef" Library="Ntve" Id="00000242"/>
+        <Parameter Type="Param" Id="5B8EF066"/>
+        <Parameter Type="Param" Id="8CFF46EE"/>
+    </Element>
+    <Element Type="Param" Id="5B8EF066">
+        <ParameterDef Type="ParamDef" Library="Ntve" Id="00000419"/>
+        <Value>5.0</Value>
+        <ValueType Type="fixed"/>
+    </Element>
+    <Element Type="Param" Id="8CFF46EE">
+        <ParameterDef Type="ParamDef" Library="Ntve" Id="00000420"/>
+        <Preset Type="PresetValue" Library="Ntve" Id="00000013"/>
+    </Element>
+    <Element Type="FunctionCall" Id="D640F19C">
+        <FunctionDef Type="FunctionDef" Library="Ntve" Id="F247156C"/>
+        <Parameter Type="Param" Id="84A81882"/>
+        <Parameter Type="Param" Id="63CDD747"/>
+        <Parameter Type="Param" Id="23675716"/>
+        <Parameter Type="Param" Id="4907BF18"/>
+        <Parameter Type="Param" Id="423B6718"/>
+    </Element>
+    <Element Type="Param" Id="84A81882">
+        <ParameterDef Type="ParamDef" Library="Ntve" Id="6A3CFF43"/>
+        <Value>1</Value>
+        <ValueType Type="int"/>
+    </Element>
+    <Element Type="Param" Id="63CDD747">
+        <ParameterDef Type="ParamDef" Library="Ntve" Id="A927C67A"/>
+        <ValueType Type="preset"/>
+        <ValueElement Type="Preset" Library="Ntve" Id="E85564CA"/>
+    </Element>
+    <Element Type="Param" Id="23675716">
+        <ParameterDef Type="ParamDef" Library="Ntve" Id="FF0C620E"/>
+        <Value>1</Value>
+        <ValueType Type="int"/>
+    </Element>
+    <Element Type="Param" Id="4907BF18">
+        <ParameterDef Type="ParamDef" Library="Ntve" Id="D43CB595"/>
+        <Value>Zergling</Value>
+        <ValueType Type="gamelink"/>
+        <ValueGameType Type="Unit"/>
+    </Element>
+    <Element Type="Param" Id="423B6718">
+        <ParameterDef Type="ParamDef" Library="Ntve" Id="23D48FEC"/>
+        <ValueType Type="point"/>
+        <ValueId Id="1836272489"/>
     </Element>
 </TriggerData>

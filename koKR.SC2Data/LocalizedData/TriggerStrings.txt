@@ -1,1 +1,2 @@
 ﻿Trigger/Name/31E35BA0=기본 초기화
+Trigger/Name/5FAD92E7=저글링 생성

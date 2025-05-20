@@ -18,6 +18,7 @@ void InitLibs () {
 // Trigger Variables
 //--------------------------------------------------------------------------------------------------
 trigger gt_EAB8B0EBB3B8ECB488EAB8B0ED9994;
+trigger gt_ECA080EAB880EBA781EC839DEC84B1;
 
 //--------------------------------------------------------------------------------------------------
 // Trigger: ?????? ?????????
@@ -43,10 +44,32 @@ void gt_EAB8B0EBB3B8ECB488EAB8B0ED9994_Init () {
 }
 
 //--------------------------------------------------------------------------------------------------
+// Trigger: ????????? ??????
+//--------------------------------------------------------------------------------------------------
+bool gt_ECA080EAB880EBA781EC839DEC84B1_Func (bool testConds, bool runActions) {
+    // Automatic Variable Declarations
+    // Actions
+    if (!runActions) {
+        return true;
+    }
+
+    Wait(5.0, c_timeGame);
+    libNtve_gf_CreateUnitsWithDefaultFacing(1, "Zergling", 0, 1, PointFromId(1836272489));
+    return true;
+}
+
+//--------------------------------------------------------------------------------------------------
+void gt_ECA080EAB880EBA781EC839DEC84B1_Init () {
+    gt_ECA080EAB880EBA781EC839DEC84B1 = TriggerCreate("gt_ECA080EAB880EBA781EC839DEC84B1_Func");
+    TriggerAddEventMapInit(gt_ECA080EAB880EBA781EC839DEC84B1);
+}
+
+//--------------------------------------------------------------------------------------------------
 // Trigger Initialization
 //--------------------------------------------------------------------------------------------------
 void InitTriggers () {
     gt_EAB8B0EBB3B8ECB488EAB8B0ED9994_Init();
+    gt_ECA080EAB880EBA781EC839DEC84B1_Init();
 }
 
 //--------------------------------------------------------------------------------------------------
