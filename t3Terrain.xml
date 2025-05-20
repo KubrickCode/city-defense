@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
 <terrain version="115">
-    <heightMap tileSet="CastanarEx1" uvtiling="12.000000 12.000000 0.000000 0.000000 " dim="129 129 " offset="0.000000 0.000000 0.000000 " scale="1.000000e+00 1.000000e+00 1.000000e+00 ">
+    <heightMap tileSet="UmojaEx3" uvtiling="12.000000 12.000000 0.000000 0.000000 " dim="129 129 " offset="0.000000 0.000000 0.000000 " scale="1.000000e+00 1.000000e+00 1.000000e+00 ">
         <vertData quantizeBias="1.000000e+00" quantizeScale="1.525902e-04" standardHeight="8.000000e+00" name="t3HeightMap"/>
         <masks name="t3TextureMasks"/>
         <textureSetList num="8">
-            <textureSet i="0" name="CastanarEx1"/>
+            <textureSet i="0" name="UmojaEx3"/>
             <textureSet i="1" name=""/>
             <textureSet i="2" name=""/>
             <textureSet i="3" name=""/>
@@ -14,7 +14,7 @@
             <textureSet i="7" name=""/>
         </textureSetList>
         <textureList num="64">
-            <texture i="0" name="CastanarPanels"/>
+            <texture i="0" name="UmojaEx3_1"/>
             <texture i="1" name=""/>
             <texture i="2" name=""/>
             <texture i="3" name=""/>

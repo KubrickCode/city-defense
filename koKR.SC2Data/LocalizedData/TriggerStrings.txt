@@ -1,1 +1,1 @@
-﻿Trigger/Name/3B7A53B3=기본 초기화
+﻿Trigger/Name/31E35BA0=기본 초기화
