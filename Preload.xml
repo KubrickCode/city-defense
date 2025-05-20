@@ -2,4 +2,5 @@
 <Preload>
 <Actor id="SYSTEM_ActorConfig"/>
 <Terrain id="UmojaEx3"/>
+<Unit id="Marine"/>
 </Preload>

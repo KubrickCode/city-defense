@@ -10,6 +10,8 @@ MapInfo
 MapInfo.version
 MapScript.galaxy
 Minimap.tga
+Objects
+Objects.version
 Preload.xml
 PreloadAssetDB.txt
 t3CellFlags
